@@ -1,3 +1,3 @@
 # Portfolio-Page
-Thank you for coming here
+Thank you for coming here!
 It is more about me.
