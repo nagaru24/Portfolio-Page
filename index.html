@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 0.5rem 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-size: 1.2rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            max-width: 900px;
+            margin: 2rem auto;
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #333;
+            color: white;
+        }
+        .section-title {
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+        .portfolio-item {
+            margin-bottom: 1.5rem;
+        }
+        .portfolio-item h3 {
+            margin: 0.5rem 0;
+        }
+        .portfolio-item p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>My Portfolio</h1>
+</header>
+
+<nav>
+    <a href="#about">About Me</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2 class="section-title">About Me</h2>
+    <p>Hello! I am a passionate professional pursuing a career in Management Information Systems. I have experience in web development, database management, and marketing. I enjoy creating solutions that make an impact.</p>
+</section>
+
+<section id="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="portfolio-item">
+        <h3>Local Library System</h3>
+        <p>A Django-based web application for managing library resources, including books, authors, and user accounts.</p>
+    </div>
+    <div class="portfolio-item">
+        <h3>Customer Database for Sports Events</h3>
+        <p>Designed and managed a customer database to enhance ticket sales and marketing efficiency.</p>
+    </div>
+</section>
+
+<section id="experience">
+    <h2 class="section-title">Experience</h2>
+    <div class="portfolio-item">
+        <h3>Volunteer Teacher</h3>
+        <p>Japanese Language Supplementary School, Omaha (2023 - Present)</p>
+        <p>Teaching and mentoring students in Japanese language and culture.</p>
+    </div>
+    <div class="portfolio-item">
+        <h3>Event Management</h3>
+        <p>Handled event operations, guest services, and security for various sports and cultural events in Japan.</p>
+    </div>
+</section>
+
+<section id="contact">
+    <h2 class="section-title">Contact</h2>
+    <p>Email: <a href="mailto:example@example.com">example@example.com</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/your-profile" target="_blank">linkedin.com/in/your-profile</a></p>
+</section>
+
+<footer>
+    <p>&copy; 2025 My Portfolio. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
